@@ -1,0 +1,8 @@
+n=input('Right anything you want:')
+print(type(n))
+print('Is numeric?',n.isnumeric())
+print('Is alpha?',n.isalpha())
+print('Is alnum?',n.isalnum())
+print('Is lower?',n.islower())
+print('Is upper?',n.isupper())
+print('Is space?',n.isspace())

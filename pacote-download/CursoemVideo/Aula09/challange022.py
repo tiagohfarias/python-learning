@@ -1,0 +1,8 @@
+name= str(input('Write your name: ')).strip()
+print('Analysying your name...')
+print(f'Your name upper is {name.upper()}')
+print(f'Your name lower is {name.lower()}')
+print(f'Your name have {len(name) - name.count(' ')} letters')
+#print(f'Your first name have {name.find(' ')} letters')
+split = name.split()
+print(f'Your first name is {split[0]} and have {len(split[0])} letters')
